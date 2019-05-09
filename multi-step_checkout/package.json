@@ -1,0 +1,26 @@
+{
+  "name": "challenge_3",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "build": "babel . --out-dir public --presets=react --ignore=node_modules,compiled --source-maps inline --watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "babel": "^6.23.0",
+    "babel-cli": "^6.26.0",
+    "babel-plugin-react": "^1.0.0",
+    "babel-preset-react": "^6.24.1",
+    "body-parser": "^1.18.3",
+    "eslint": "^5.15.3",
+    "express": "^4.16.4",
+    "express-partials": "^0.3.0",
+    "mongodb": "^3.1.13",
+    "nodemon": "^1.18.10",
+    "react": "^16.8.4",
+    "react-dom": "^16.8.4"
+  }
+}
